@@ -1,0 +1,18 @@
+{
+    "homepage": "https://github.com/AppImage/type2-runtime",
+    "maintainers": [
+        {
+            "email": "bcr@laure.nz",
+            "github": "lalten",
+            "github_user_id": 11611719,
+            "name": "lalten"
+        }
+    ],
+    "repository": [
+        "github:AppImage/type2-runtime"
+    ],
+    "versions": [
+        "20251108"
+    ],
+    "yanked_versions": {}
+}

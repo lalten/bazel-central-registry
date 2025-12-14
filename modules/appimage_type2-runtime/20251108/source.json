@@ -1,0 +1,12 @@
+{
+    "url": "https://github.com/AppImage/type2-runtime/archive/refs/tags/20251108.tar.gz",
+    "integrity": "sha256-TE9t9GR8nwH4cdft03Ftiu7/2p0i/76+P8zZWmq1LJU=",
+    "strip_prefix": "type2-runtime-20251108",
+    "overlay": {
+        "BUILD.bazel": "sha256-yjGpT0BeQsStMbq7e8XfdAQqq0tBp4R2BJiYEMkK7c4=",
+        "MODULE.bazel": "sha256-xzpqz81jQ6kGlOQJD16f6w898H9287LwSm/TM5GUPFU="
+    },
+    "patches": {
+        "data_sections.patch": "sha256-KiSq5f+KvdpKBlrQfGQdiSF5gtj3zoiHYdlNLePjUZk="
+    }
+}

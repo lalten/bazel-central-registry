@@ -1,0 +1,26 @@
+diff --git src/runtime/data_sections.ld src/runtime/data_sections.ld
+index 0c0ae50..8bf2139 100644
+--- src/runtime/data_sections.ld
++++ src/runtime/data_sections.ld
+@@ -8,20 +8,10 @@ SECTIONS
+     BYTE(0x02);
+   }
+ 
+-  /* undocumented marker for tools like AppImageLauncher to allow them to recognize static runtimes that support TARGET_APPIMGE */
+-  /* will be replaced with a proper solution in type 3 */
+-  .static : ALIGN(0x404) {
+-    BYTE(0x73);
+-    BYTE(0x74);
+-    BYTE(0x61);
+-    BYTE(0x74);
+-    BYTE(0x69);
+-    BYTE(0x63);
+-  }
+ }
+ 
+ /* define were the new sections will be placed */
+-INSERT AFTER .interp;
++INSERT AFTER .text;
+ 
+ SECTIONS
+ {
